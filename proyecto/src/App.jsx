@@ -182,7 +182,7 @@ export default function SnakeGame() {
       ctx.stroke();
     }
 
-    // Comida favorita
+    // Comida
     drawCell(ctx, food.x, food.y, "#f59e0b"); // amber-500
     // Sombra comida
     drawRounded(ctx, food.x * CELL_SIZE + CELL_SIZE/2, food.y * CELL_SIZE + CELL_SIZE/2, CELL_SIZE/3, "#fbbf24");
